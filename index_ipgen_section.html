@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>iPGEN v.fzx</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/custom-styles_section.css"> <!--Database CSS -->
+    <script src="js/js-section.js"></script>
+</head>
+
+
+<body>
+        <section id="section01" class="section1-bg">
+
+            <div class="container-fluid h-100">  <!-- End of whole container. Full height, fluid width. Bootstrap grid system. -->
+                
+                <div class="row h-64"> <!-- Start of row in the container. One row, full height, fluid width. Bootstrap grid system. -->
+                    <!-- Custom : h-75 (show bottom link h-25) or h-100 (total center div loginsection) -->
+
+                    <div class="col loginsection shadow"> <!-- Start of one column in the container. Custom setting css loginsection. One column, custom height, bs-grid width. Bootstrap grid system. -->
+
+                        <h1 class="mb-3">hello.ipgen</h1>
+                        <p class="mb-4 mt-n1 h7">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        <form>
+                            <!--
+                            <div class="form-group">
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon1">
+                                        <i class="fa fa-user" aria-hidden="true"></i>
+                                    </span>
+                                    </div>
+                                    <input name="username" type="text" class="form-control form-rounded form-control-sm" id="" placeholder="Staff ID">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                    <div class="input-group mb-3">
+                                        <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">
+                                            <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+                                        </span>
+                                        </div>
+                                        <input name="password" type="password" class="form-control form-rounded form-control-sm" id="" placeholder="Password">
+                                    </div>
+                                </div>
+                            -->
+                            
+                            <div class="form-group">
+                                <!--<label for="exampleInputEmail1">Staff ID </label>-->
+                                <input name="username" type="text" class="form-control form-rounded bg-white shadow-sm" id="" placeholder="TM STAFF ID" style="text-transform:uppercase;">
+                            </div>
+
+                            <div class="form-group">
+                                <!-- <label for="exampleInputPassword1">Password</label>  -->
+                                <input name="password" type="password" class="form-control form-rounded bg-white shadow-sm" id="" placeholder="PASSWORD">
+                            </div>
+                            
+                            <!--
+                            <div class="form-check mb-3 border-visibility">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1" >
+                                <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                            </div> 
+                            -->
+
+                            <div class="custom-control custom-checkbox">
+                                <label class="custom-control overflow-checkbox">
+                                    <input type="checkbox" class="overflow-control-input" id="remembercheck">
+                                    <span class="overflow-control-indicator"></span>
+                                    <h6>REMEMBER ME</h6>
+                                </label>
+                            </div>
+                            
+
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-info btn-rounded"><strong>LOGIN<i class="fas fa-sign-in-alt pl-2"></i></strong></button>
+                                
+                                <!-- <button type="button" class="btn btn-warning btn-circle active" data-toggle="button" data-tooltip="tooltip" data-placement="bottom" aria-pressed="false" autocomplete="off" title="Remember Me"><i class="fas fa-bookmark fa-lg"></i></button> -->
+                                <button type="reset" class="btn btn-circle btn-reset" data-tooltip="tooltip" data-placement="bottom" title="Reset"><i class="fas fa-undo-alt fa-lg"></i></i></button>
+                                <button type="button" class="btn btn-circle btn-register" data-tooltip="tooltip" data-placement="bottom" title="Register Here"><i class="fas fa-plus fa-lg"></i></button>
+                                <button type="button" class="btn btn-circle btn-help" data-tooltip="tooltip" data-placement="bottom" title="Need Help?"><i class="fas fa-question fa-lg"></i></button>
+                                
+                                <!--<span class="btn-group-toggle" data-toggle="buttons">
+                                    <label class="btn btn-sm btn-outline-primary btn-circle">
+                                    <input type="checkbox" checked autocomplete="off"> <i class="fa fa-bookmark"></i>
+                                    </label>
+                                </span> -->
+
+                            </div>
+
+                        </form>
+
+                    </div> <!-- End of one column in the container. Custom setting css loginsection. One column, custom height, bs-grid width. Bootstrap grid system. -->
+
+                </div> <!-- End of row in the container. One row, full height,fluid width. Bootstrap grid system. -->
+
+                <div class="row h-34">
+                    <div class="col loginsectionbtm shadow bg-dark">
+                        <!-- <p ><a class="sscroll" href="#section02"><span><center>Go To Next Page</center></span></a></p> -->
+                        <a class="sscroll" href="#section02"><button type="button" class="btn btn-circle btn-nextpage" data-tooltip="tooltip" data-placement="bottom" title="Go to iPGEN Development Dashboard"><i class="fas fa-angle-double-down fa-lg"></i></button></a>
+                    </div>
+                    
+                    
+                    
+                </div>
+                
+                <div class="row h-2">
+                    <div class="col">
+                        <p class="h7">Copyright &copy; 2019 - QPI SFC</p>
+                    </div>
+                    
+                </div>
+
+                <!-- Custom : h-75 (show bottom link h-25) or h-100 (total center div loginsection) -->
+
+                <!--
+                <div class="row h-25 border">
+                    <div class="col-sm text-center">
+                        <h5><a class="sscroll" href="#section02">Go to next section (no login)</a></h5> 
+                    </div>
+                </div>
+                -->
+
+            </div> <!-- End of whole container. Bootstrap grid system. -->
+            
+        </section>
+        
+        <section id="section02" class="section2-bg">
+            <div class="container-fluid h-100">
+                <div class="row text-light">
+                    <div class="col-2">
+                        <h5>Side bar column area</h5>
+                    </div>
+                    <div class="container-fluid h-100 col-8 p-5">
+                        <h1>Second Page</h1>
+                        <h2>Accessible without login</h2>
+                        <h5><a class="sscrolltop" href="#section01">Back to login page or trigger login modal?</a></h5>               
+                    </div>
+                    <div class="col-2">
+                        <h5>Side bar column area</h5>
+                   </div>
+                </div>
+            </div>
+        </section>
+              
+</body>
+
+</html>
